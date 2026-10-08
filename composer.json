@@ -29,14 +29,6 @@
     "autoload": {
         "psr-4": {
             "Jundayw\\ProxyManager\\": "src/"
-        },
-        "laravel": {
-            "providers": [
-                "Jundayw\\ProxyManager\\ProxyManagerServiceProvider"
-            ],
-            "aliases": {
-                "Proxy": "Jundayw\\ProxyManager\\Facades\\Proxy"
-            }
         }
     },
     "autoload-dev": {
@@ -50,6 +42,14 @@
     "extra": {
         "branch-alias": {
             "dev-main": "1.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Jundayw\\ProxyManager\\ProxyManagerServiceProvider"
+            ],
+            "aliases": {
+                "Proxy": "Jundayw\\ProxyManager\\Facades\\Proxy"
+            }
         }
     },
     "config": {
